@@ -1,0 +1,28 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.containor {
+    width: 300px;
+    margin: 250px auto;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: rgb(1, 115, 113);
+}
+
+button{
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+button:hover{
+    background-color: rgb(55, 130, 132);
+}
+

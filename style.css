@@ -11,8 +11,9 @@ body {
 }
 h1{
     font-size: 40px;
-    text-decoration: underline;
-    text-decoration-color: rgb(1, 115, 113);
+    border-bottom: 3px solid black; /* Border define karein */
+    margin: 0 auto; /* Margin ko center karte hue fix karein */
+    display: inline-block; /* Isko inline-block karne se width shrink hogi */
 }
 
 button{

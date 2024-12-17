@@ -11,16 +11,18 @@ body {
 }
 h1{
     font-size: 40px;
-    border-bottom: 3px solid black; /* Border define karein */
-    margin: 0 auto; /* Margin ko center karte hue fix karein */
-    display: inline-block; /* Isko inline-block karne se width shrink hogi */
+   box-shadow: 0  5px 12px grey;
+
+    
 }
 
 button{
-    padding: 15px;
-    width: 200px;
+    padding: 18px;
+    width: 180px;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 0  8px 12px grey;
+    border-color: aliceblue;
     background-color: cadetblue;
 }
 button:hover{
